@@ -36,20 +36,10 @@ html {
     height: 500px;
     border-radius: 5px;
     position: relative;
-    left: -50rem;
-    animation: slide-from-left 3.5s ease-in-out forwards;
+    
 }
 
-@keyframes slide-from-left {
-    80% {left: 1.5rem;}
-    100% {left: 0;}
-}
 
-.movie-poster-container img:hover {
-    transform: scale(1.1);
-    box-shadow: 8px 8px 8px -4px grey ;
-    cursor: pointer;
-}
 
 .modal {
     display: none;
@@ -66,7 +56,7 @@ html {
 .modal-content {
     background-color: blanchedalmond;
     margin: 5% auto;
-    padding: 5rem;
+    padding: 1rem;
     width: 600px;
     height: 600px;
     animation: zoom-in 1s;
